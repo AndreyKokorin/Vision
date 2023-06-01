@@ -4,7 +4,7 @@ const main = document.querySelector(".main");
 
 
 const image = new Image();
-image.src ="https://i.postimg.cc/PJGFbg7b/glass.png";
+image.src ="img/glass.png";
 
 image.onload = function() {
     context.drawImage(image, 0, 0, 300, 130);
